@@ -1,0 +1,53 @@
+@import url("../../App.css");
+
+.landing-container {
+    margin: 1rem 2rem;
+    padding: 1rem;
+    position: relative;
+    background-image:
+        linear-gradient(rgba(155, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7),
+            rgba(155, 0, 0, 0.7)),
+        url("../../assets/home-wallpaper.jpg");
+    background-size: cover;
+    border-radius: 2rem;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    min-height: 80vh;
+}
+
+.landing-heading{
+    font-size: 3.2rem;
+}
+
+.highlight{
+    color: var(--text-color);
+    font-size: 3.6rem;
+    font-weight: 900;
+}
+
+.landing-subheading{
+    margin: 1rem auto;
+}
+
+.btn-landing{
+    background-color: var(--text-color);
+    color: var(--shadow-color);
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 0 rgba(255, 255, 255, 1);
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: 0.2s ease-in;
+}
+
+.btn-landing:hover{
+    box-shadow: 10px 10px 0 rgba(255, 255, 255, 1);
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+    transition: 0.2s ease-in;
+}

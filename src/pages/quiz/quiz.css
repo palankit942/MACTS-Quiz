@@ -1,0 +1,48 @@
+@import url("../../App.css");
+
+.quiz-heading {
+    background-color: var(--bg-color);
+    color: var(--white-color);
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem 0 var(--text-color);
+}
+
+.quiz-name {
+    color: var(--text-color);
+}
+
+.quiz-option {
+    align-self: flex-start;
+    min-width: 24rem;
+    text-align: left;
+    border: solid 4px var(--text-color);
+    font-weight: 500;
+    border-radius: 1rem;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    cursor: pointer;
+    transition: 0.1s ease-in;
+}
+
+.quiz-option:hover {
+    background-color: var(--white-color);
+    color: var(--bg-color);
+}
+
+.rules-btn{
+    position: fixed;
+    right: 2rem;
+    bottom: 4rem;
+}
+
+.rules-btn .btn-round{
+    background-color: var(--text-color);
+}
+
+@media only screen and (max-width: 800px) {
+    .ques-container{
+        display: grid;
+        place-items: center;
+        text-align: center;
+    }    
+}

@@ -1,0 +1,58 @@
+@import url('../App.css');
+
+.screen-container {
+    position: fixed;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: grid;
+    place-items: center;
+}
+
+.dialog-container {
+    background-color: var(--white-color);
+}
+
+.dialog-text {
+    color: var(--bg-color);
+}
+
+.dialog-btn {
+    background-color: var(--bg-color);
+    color: var(--white-color);
+    cursor: pointer;
+    font-weight: 500;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    margin-top: 1rem;
+}
+
+.rules-container{
+    color: var(--bg-color);
+    width: 80vw;
+}
+
+.rules-container .btn-success{
+    color: var(--white-color);
+}
+
+.rules-list-item{
+    list-style: inherit;
+}
+.rules-list{
+    padding-left: 40px;
+}
+.rules-list-container{
+    border-top: solid 1px var(--text-color);
+    border-bottom: solid 1px var(--text-color);
+}
+
+@media only screen and (min-width: 800px) {
+    .page-not-found {
+        width: 40%;
+    }
+}

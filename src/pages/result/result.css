@@ -1,0 +1,60 @@
+@import url("../../App.css");
+
+.result-heading{
+    color: var(--text-color);
+}
+
+.score{
+    color: var(--text-color);
+    font-size: 2rem;
+}
+
+.result-score{
+    border-top: solid 2px var(--text-color);
+    border-bottom: solid 2px var(--text-color);
+    width: max-content;
+}
+
+.result-heading{
+    text-align: center;
+}
+
+.ques-wrapper{
+    width: 75%;
+    margin: 1rem auto;
+}
+
+.option{
+    padding: 5px;
+    width: max-content;
+    border-radius: 5px;
+}
+
+.option-correct{
+    background-color: var(--correct-color);
+    color: var(--bg-color);
+}
+
+.option-wrong{
+    background-color: var(--wrong-color);
+}
+
+.play-again-wrapper{
+    position: fixed;
+    bottom: 5rem;
+    right: 2rem;
+}
+
+.play-again-btn{
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    box-shadow: 4px 4px 8px -2px var(--white-color);
+}
+
+.correct-ques{
+    text-align: right;
+}
+
+.correct-ques-count{
+    color: var(--correct-color);
+}

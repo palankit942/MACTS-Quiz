@@ -1,0 +1,9 @@
+@import url('../App.css');
+
+.quiz-footer{
+    text-align: center;
+}
+
+.social-links .fab{
+    font-size: 2rem;
+}

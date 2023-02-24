@@ -1,0 +1,31 @@
+@import url("../../App.css");
+
+.category-card {
+    border-radius: 1.2rem;
+    width: 80vw;
+    cursor: pointer;
+    background-color: var(--bg-color);
+    border: solid 2px var(--white-color);
+}
+
+.category-card:hover{
+    box-shadow: 0px 0px 10px 0px var(--white-color);
+    transition: 0.1s ease-in;
+}
+
+.card-title{
+    margin-bottom: 8px;
+}
+.card-subTitle{
+    color: var(--white-color);
+}
+
+.category-card-img{
+    border-radius: 1.2rem;
+}
+
+.category-heading{
+    border-top: solid 2px var(--text-color);
+    border-bottom: solid 2px var(--text-color);
+    padding: 5px;
+}
